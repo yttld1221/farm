@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>游客体验</title>
+    <!-- build:js js/travel.js -->
+    <script src="./src/js/jquery.js"></script>
+    <script src="./src/js/dist/js/bootstrap.js"></script>
+    <script src="./src/js/header.js"></script>
+    <script src="./src/js/getPHP.js"></script>
+    <script src="./src/js/travel.js"></script>
+    <!-- endbuild -->
+    <link rel="shortcut icon" href="./src/img/logo.ico">
+    <!-- build:css css/travel.css -->
+    <link rel="stylesheet" href="./src/js/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./src/css/header.css">
+    <link rel="stylesheet" href="./src/css/travel.css">
+    <!-- endbuild -->
+</head>
+
+<body>
+    <!-- 导航栏 -->
+    <nav id="nav" class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+                <span class="sr-only">切换导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+                <a class="navbar-brand" href="index.html"><img src="./src/img/logo.png" alt=""></a>
+            </div>
+            <div class="collapse navbar-collapse container navbar-right" id="example-navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">网站首页</a></li>
+                    <li class="dropdown">
+                        <a href="introduction.html" class="dropdown-toggle" data-toggle="dropdown">
+                            农庄简介 <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu" id="introduction">
+                            <li><a href="introduction.html">农庄简介</a></li>
+                            <li><a href="introduction.html">团队套餐</a></li>
+                            <li><a href="introduction.html">乘车路线</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="play.html" class="dropdown-toggle" data-toggle="dropdown">
+                            休闲项目 <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="play.html">农家乐</a></li>
+                            <li><a href="play.html">真人CS</a></li>
+                            <li><a href="play.html">骑马</a></li>
+                            <li><a href="play.html">室内休闲</a></li>
+                            <li><a href="play.html">室外拓展</a></li>
+                            <li><a href="play.html">球类</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="farming.html" class="dropdown-toggle" data-toggle="dropdown">
+                            农场养殖 <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="farming.html">本地鸡</a></li>
+                            <li><a href="farming.html">无害菜园</a></li>
+                            <li><a href="farming.html">特色芦花鸡</a></li>
+                            <li><a href="farming.html">农村水鸭</a></li>
+                            <li><a href="farming.html">本地土猪</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="environ.html">山庄环境</a></li>
+                    <li><a href="travel.html" id="headon">游客体验</a></li>
+                    <li class="dropdown">
+                        <a href="activity.html" class="dropdown-toggle" data-toggle="dropdown">
+                            活动套餐 <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu jumpa">
+                            <li><a href="activity.html">活动方案策划</a></li>
+                            <li><a href="activity.html">亲子活动套餐</a></li>
+                            <li><a href="activity.html">烤全羊套餐</a></li>
+                            <li><a href="activity.html">团队活动套餐</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="strategy.html">游玩攻略</a></li>
+                    <li><a href="order.html">游客预约</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- 导航栏 -->
+    <!-- banner图片 -->
+    <div class="container-fluid banner">
+        <div class="row clearfix img-bg">
+            <div class="col-md-12 column">
+                <img src="src/img/introduction/banner.jpg">
+            </div>
+        </div>
+    </div>
+    <!-- banner图片 -->
+    <!-- 中间内容 -->
+    <main>
+        <div class="container">
+            <div class="row clearfix">
+                <div class="col-md-12 column">
+                    <div class="row clearfix">
+                        <!-- 左边文章 -->
+                        <div class="col-md-9 column travel-MainLeft">
+                            <div class="row clearfix">
+                                <div class="col-md-12 column" id="pageMain">
+                                    <!-- 第一行 -->
+                                </div>
+                            </div>
+                            <!-- 分页 -->
+                            <div id="pageBox">
+                                <span id="prev">上一页</span>
+                                <ul id="pageNav"></ul>
+                                <span id="next">下一页</span>
+                            </div>
+                            <!-- 分页 -->
+                        </div>
+                        <!-- 左边文章 -->
+                        <!-- 右边注册登录 -->
+                        <div class="col-md-3 column travel-MainRight">
+                            <div class="formBox ">
+                                <div class="row clearfix formBox-row">
+                                    <div class="col-md-12 column userBox">
+                                        <a href="javascript:void(0);" id="user">
+                                            <img src="src/img/travel/user.png" class="img-circle" />
+                                            <span class="text-danger" id='username'>未登录</span>
+                                            <span id='logout'>注销</span>
+                                        </a>
+                                    </div>
+                                    <div class="row clearfix">
+                                        <div class="col-md-12 column recommend">
+                                            <h3>
+                                                为您推荐
+                                            </h3>
+                                            <ul class="list-unstyled">
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <h3>
+                                        我也要分享
+                                        <a href="javascript:void(0);" class="glyphicon glyphicon-edit" id="shareBtn"></a>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 右边注册登录 -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- 中间内容 -->
+    <!-- 页脚 -->
+    <footer>
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <div class="row clearfix">
+                    <div class="col-md-12 column text-center">
+                        <nav>
+                            <a href="">关于我们</a> <span>|</span>
+                            <a href="">联系我们</a> <span>|</span>
+                            <a href="">联系客服</a> <span>|</span>
+                            <a href="">合作招商</a> <span>|</span>
+                            <a href="">友情链接</a> <span>|</span>
+                            <a href="">风险监测</a> <span>|</span>
+                            <a href="">隐私政策</a>
+                        </nav>
+                        <nav class="Copyright">Copyright © 2017-2018 山水之间特色农家乐 版权所有 ICP备66666666号 </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- 页脚 -->
+    <!-- 返回顶部 -->
+    <div id="toTop"><img src="src/img/fanhuidingbu.png" alt="返回顶部"></div>
+    <!-- 返回顶部 -->
+</body>
+
+</html>

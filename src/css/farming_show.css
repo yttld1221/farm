@@ -1,0 +1,17 @@
+.banner {
+  padding: 0;
+}
+.banner img {
+  width: 100%;
+}
+main {
+  padding: 50px 0;
+}
+#farming-show p {
+  text-indent: 3rem;
+  font-size: 18px;
+  line-height: 37px;
+}
+#farming-show p img {
+  width: 30%;
+}

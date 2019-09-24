@@ -1,0 +1,129 @@
+main.order .img-bg {
+  width: 100%;
+  height: 100%;
+}
+main.order .main-con {
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+}
+main.order .main-con .order-us {
+  background-color: black;
+  opacity: 0.8;
+  margin-top: 8px;
+  color: white !important;
+}
+main.order .main-con .order-us div:nth-child(1) {
+  height: 50px;
+  margin-bottom: 10px !important;
+}
+main.order .main-con .order-us div:nth-child(1) select {
+  background-color: transparent;
+  font-size: 1.1em;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  width: 97%;
+  height: 28px;
+}
+main.order .main-con .order-us div:nth-child(1) select option:nth-child(1) {
+  display: none;
+}
+main.order .main-con .order-us div:nth-child(1) select option {
+  color: white;
+  background-color: #303030;
+}
+main.order .main-con .order-us div:nth-child(5),
+main.order .main-con .order-us div:nth-child(6) {
+  display: flex;
+  align-items: center;
+}
+main.order .main-con .order-us div:nth-child(5) span,
+main.order .main-con .order-us div:nth-child(6) span {
+  width: 30%;
+}
+main.order .main-con .order-us div:nth-child(7) {
+  height: 100px !important;
+}
+main.order .main-con .order-us div:nth-child(7) textarea {
+  width: 96.5%;
+  height: 98% !important;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+main.order .main-con .order-us div.us-item {
+  width: 100%;
+  height: 40px;
+  margin-top: 10px !important;
+  text-indent: 2rem;
+  border-bottom: 1px solid gray;
+}
+main.order #map {
+  width: 650px !important;
+  height: 600px !important;
+}
+main.order input[type=submit] {
+  color: white;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-top: 30px;
+  width: 100%;
+  height: 50px;
+  background-color: #77d1ad;
+  margin-bottom: 12px;
+}
+main.order input[type=submit]:hover {
+  background-color: #6fc09f;
+}
+main.order input[type=text] {
+  height: 28px;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  width: 95%;
+  background-color: transparent;
+  font-size: 1.1em;
+}
+main.order input[type=text]::-webkit-input-placeholder {
+  color: #595959;
+  color: white ;
+}
+main.order textarea::placeholder {
+  color: white;
+  font-size: 1.1em;
+}
+main.order input[type=date] {
+  font-size: 1.1em;
+  color: white;
+  height: 28px;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  width: 96.5%;
+  background-color: transparent;
+}
+main.order input[type=date]::-webkit-datetime-edit {
+  border-color: transparent;
+}
+main.order input[type=date]::-webkit-datetime-edit-text {
+  padding: 0 .3em;
+}
+main.order input[type=date]::-webkit-inner-spin-button {
+  visibility: hidden;
+}
+main.order input[type=date]::-webkit-calendar-picker-indicator {
+  border: 0px solid #ccc;
+  border-radius: 2px;
+  box-shadow: inset 0 1px #fff, 0 1px #eee;
+  background-color: #eee;
+  background-image: -webkit-linear-gradient(top, #f0f0f0, #e6e6e6);
+  color: #666;
+}
+main.order .input-on {
+  border-bottom: 1px solid #77d1ad !important;
+}

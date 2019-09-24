@@ -1,0 +1,95 @@
+//banner
+.banner{
+    padding: 0;
+    img{
+        width: 100%;
+    }
+}
+//main样式
+main{
+    padding: 50px;
+}
+//展示框样式
+.enr-main-show{
+    div.column{
+        position: relative;
+        margin-bottom: 50px;
+        .small-img{
+            width:263px;
+            height: 172px;
+            overflow: hidden;
+            img{
+                width:100%;
+                transition: all 0.3s linear;
+            }
+        }
+        &:hover .small-img img{
+            transform: scale(1.1);
+        }
+        //模态弹框
+        .enr-main-show-modal{
+            display: block;
+            position:absolute; 
+            top: 0;
+            left: 15px; 
+            background-color:rgba(0,0,0,0.4);
+            width:263px;
+            height: 172px;
+            color: white;
+            h2{
+                font-size: 20px;
+            }
+            .btn{
+                background-color: transparent;
+                border: 1px solid white;
+                outline: none;
+                width: 80px;
+                height: 40px;
+            }
+            .modal-header{
+                height: 20px;
+            }
+            .modal-body{
+                padding: 50px;
+                .big-img{
+                    width:100%; 
+                }
+            }
+        }
+    }
+}
+//分页样式
+#pageBox {
+    padding: 10px 0 0 0;
+    span {
+        display: inline-block;
+        width: 60px;
+        height: 24px;
+        line-height: 24px;
+        text-align: center;
+        color: #fff;
+        background: #08a586;
+    }
+    #pageNav {
+        display: inline-block;
+        a{
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            line-height: 24px;
+            text-align: center;
+            color: #3a87ad;
+            text-decoration: none;
+        }
+        a.active,a:hover {
+            background: #3a87ad;
+            color: #EFEFEF;
+        }
+    }
+    #prev:hover {
+        cursor: pointer;
+    }
+    #next:hover {
+        cursor: pointer;
+    }
+}

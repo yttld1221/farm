@@ -1,0 +1,93 @@
+main.share .img-bg {
+  width: 100%;
+  height: 100%;
+}
+main.share .main-con {
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+}
+main.share .main-con P.text-center {
+  font-size: 30px;
+  font-weight: bolder;
+}
+main.share .main-con .order-us {
+  background-color: black;
+  opacity: 0.8;
+  margin-top: 8px;
+}
+main.share .main-con .order-us div:nth-child(1) {
+  height: 50px;
+  margin-bottom: 10px !important;
+}
+main.share .main-con .order-us div:nth-child(2) {
+  height: 200px !important;
+}
+main.share .main-con .order-us div:nth-child(2) textarea {
+  width: 98%;
+  height: 98% !important;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+main.share .main-con .order-us div.us-item {
+  width: 100%;
+  height: 40px ;
+  margin-top: 10px !important;
+  text-indent: 2rem;
+  border-bottom: 1px solid gray;
+}
+main.share #map {
+  width: 600px !important;
+  height: 600px !important;
+}
+main.share input[type=submit] {
+  color: white;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-top: 30px;
+  width: 100%;
+  height: 50px;
+  background-color: #77d1ad;
+  margin-bottom: 12px;
+}
+main.share input[type=submit]:hover {
+  background-color: #6fc09f;
+}
+main.share input[type=text] {
+  height: 28px;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  width: 95%;
+  background-color: transparent;
+  font-size: 1.1em;
+}
+main.share input[type=text]::-webkit-input-placeholder {
+  color: #595959;
+  color: white ;
+}
+main.share textarea::placeholder {
+  color: white;
+  font-size: 1.1em;
+}
+main.share input[type=file] {
+  padding: 0 20px;
+  color: white;
+  font-size: 14px;
+}
+main.share input[type=file]::-webkit-file-upload-button:hover {
+  cursor: pointer;
+}
+main.share input[type=file]::-webkit-file-upload-button {
+  border: none;
+  outline: none;
+  background-color: #77d1ad;
+  height: 30px;
+  border-radius: 2px;
+  color: white;
+  padding: 0 5px;
+}
+main.share .input-on {
+  border-bottom: 1px solid #77d1ad !important;
+}

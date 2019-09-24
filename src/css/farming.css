@@ -1,0 +1,84 @@
+.banner {
+  padding: 0;
+}
+.banner img {
+  width: 100%;
+}
+main {
+  padding: 50px 0;
+}
+#tabBox .nav-tabs {
+  display: flex;
+  justify-content: center;
+}
+#tabBox .nav-tabs li {
+  text-align: center;
+}
+#tabBox .nav-tabs li a {
+  font-size: 18px;
+  color: #222;
+}
+#tabBox .nav-tabs .active > a {
+  color: #77d1ad ;
+}
+#tabBox #myTabContent {
+  text-align: center !important;
+  margin-top: 50px;
+}
+#tabBox #myTabContent p {
+  font: 300 18px "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", Roboto, Arial, sans-serif;
+  line-height: 1.8;
+  color: #222;
+}
+#tabBox #myTabContent p mark {
+  color: red;
+}
+.farming-main-show div.column {
+  display: flex;
+  flex-wrap: wrap;
+}
+.farming-main-show div.column a {
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+  border: 1px solid #eee;
+}
+.farming-main-show div.column a img {
+  width: 100%;
+  height: 100%;
+}
+#pageBox {
+  padding: 10px 0 0 0;
+}
+#pageBox span {
+  display: inline-block;
+  width: 60px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  background: #08a586;
+}
+#pageBox #pageNav {
+  display: inline-block;
+}
+#pageBox #pageNav a {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #3a87ad;
+  text-decoration: none;
+}
+#pageBox #pageNav a.active,
+#pageBox #pageNav a:hover {
+  background: #3a87ad;
+  color: #EFEFEF;
+}
+#pageBox #prev:hover {
+  cursor: pointer;
+}
+#pageBox #next:hover {
+  cursor: pointer;
+}

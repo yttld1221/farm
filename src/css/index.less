@@ -1,0 +1,329 @@
+@fontsize:40px;
+@spansize:16px;
+@color:rgb(119, 209, 173);
+@spancolor:#bbb;
+// 初始化
+a{
+    text-decoration: none;
+    &:hover{
+        text-decoration: none;
+    }
+}
+// 轮播
+.index-banner{
+    .col-md-12{
+        padding: 0 !important;
+    }
+    .item{
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+// 特色
+.index-special{
+    margin: 50px 0;
+    .Title();
+    .column-box:hover{
+        -webkit-box-shadow: #999 0px 0px 8px;
+        -moz-box-shadow: #999 0px 0px 8px;
+        box-shadow: #999 0px 0px 8px;
+        -moz-transition: all 1s ease 0s;
+        -ms-transition: all 1s ease 0s;
+        -o-transition: all 1s ease 0s;
+        -webkit-transition: all 18s ease 0s;
+        transition: all 1s ease 0s;
+    }
+    .special-box{
+        a{
+            width: 100%;
+            height: 100%;
+            div{
+                height: 210px;
+                img{
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            h3{
+                padding-left: 15px;
+                color: rgb(36, 29, 29);
+            }
+            span{
+                padding-left: 15px;
+                margin-bottom: 15px;
+                display: block;
+                color: @spancolor;
+            }
+        }
+        &:hover{
+            div{
+                overflow: hidden;
+                height: 210px;
+                img{
+                    transform: scale(1.1);
+                    -webkit-transform: scale(1.1); /*Safari 和 Chrome*/
+                    -moz-transform: scale(1.1); /*Firefox*/
+                    -ms-transform: scale(1.1); /*IE9*/
+                    -o-transform: scale(1.1); /*Opera*/
+                    -moz-transition: all 1s ease 0s;
+                    -ms-transition: all 1s ease 0s;
+                    -o-transition: all 1s ease 0s;
+                    -webkit-transition: all 18s ease 0s;
+                    transition: all 1s ease 0s;
+                }
+            }
+            h3{
+                color: @color;
+            }
+            span{
+                color: @spancolor;
+            }
+            .loading{
+                background: #77d1ad;
+                display: block;
+                width: calc(100% - 8px);
+                height: 2px;
+                position: absolute;
+                left: 15px;
+                bottom: -15px;
+                -moz-transition: all 1s ease 0s;
+                -ms-transition: all 1s ease 0s;
+                -o-transition: all 1s ease 0s;
+                -webkit-transition: all 1s ease 0s;
+                transition: all 1s ease 0s;
+            }
+        }
+        
+    }
+}
+// 活动套餐
+.index-activity{
+    margin: 50px 0;
+    .Title();
+    background: url(../img/index/bg.jpg)no-repeat;
+    background-size: 100%;
+    .activity-box{
+        margin-bottom: 30px;
+        a{
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            display: block;
+            div{
+                height: 210px;
+                img{
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            h3{
+                color: rgb(36, 29, 29);
+                margin-bottom: 15px;
+            }
+        }
+        &:hover{
+            -webkit-box-shadow: #999 0px 0px 8px;
+            -moz-box-shadow: #999 0px 0px 8px;
+            box-shadow: #999 0px 0px 8px;
+            -moz-transition: all 1s ease 0s;
+            -ms-transition: all 1s ease 0s;
+            -o-transition: all 1s ease 0s;
+            -webkit-transition: all 18s ease 0s;
+            transition: all 1s ease 0s;
+            div{
+                overflow: hidden;
+                height: 210px;
+                img{
+                    transform: scale(1.1);
+                    -webkit-transform: scale(1.1); /*Safari 和 Chrome*/
+                    -moz-transform: scale(1.1); /*Firefox*/
+                    -ms-transform: scale(1.1); /*IE9*/
+                    -o-transform: scale(1.1); /*Opera*/
+                    -moz-transition: all 1s ease 0s;
+                    -ms-transition: all 1s ease 0s;
+                    -o-transition: all 1s ease 0s;
+                    -webkit-transition: all 18s ease 0s;
+                    transition: all 1s ease 0s;
+                }
+            }
+            h3{
+                color: @color;
+            }
+        }
+        
+    }
+}
+// 游客体验
+.index-travel{
+    margin: 50px 0;
+    .Title();
+    .travel-box{
+        margin-bottom: 30px;
+        a{
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            display: block;
+            div{
+                position: relative;
+                img{
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                }
+                .show-title{
+                    position: absolute;
+                    display: block;
+                    bottom: -10px;
+                    width: 100%;
+                    background-color: aliceblue;
+                    overflow: hidden;
+                    height: 40px;
+                    h3{
+                        margin:0 !important;
+                        color: #241d1d;
+                        font-size: 16px;
+                        height: 40px;
+                        line-height: 40px;
+                        padding: 0 15px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space:nowrap;
+                    }
+                }
+            }
+            
+        }
+        &:hover{
+            -webkit-box-shadow: #999 0px 0px 8px;
+            -moz-box-shadow: #999 0px 0px 8px;
+            box-shadow: #999 0px 0px 8px;
+            -moz-transition: all 1s ease 0s;
+            -ms-transition: all 1s ease 0s;
+            -o-transition: all 1s ease 0s;
+            -webkit-transition: all 18s ease 0s;
+            transition: all 1s ease 0s;
+            div{
+                overflow: hidden;
+                img{
+                    transform: scale(1.1);
+                    -webkit-transform: scale(1.1); /*Safari 和 Chrome*/
+                    -moz-transform: scale(1.1); /*Firefox*/
+                    -ms-transform: scale(1.1); /*IE9*/
+                    -o-transform: scale(1.1); /*Opera*/
+                    -moz-transition: all 1s ease 0s;
+                    -ms-transition: all 1s ease 0s;
+                    -o-transition: all 1s ease 0s;
+                    -webkit-transition: all 18s ease 0s;
+                    transition: all 1s ease 0s;
+                }
+            }
+            .show-title{
+                -moz-transition: height 1s ease 0s;
+                -ms-transition: height 1s ease 0s;
+                -o-transition: height 1s ease 0s;
+                -webkit-transition: height 1s ease 0s;
+                transition: height 1s ease 0s;
+                height: 200px;
+                overflow: hidden;
+                cursor: pointer;
+                padding: 0 15px;
+                position: absolute;
+                bottom: 0px;
+                background: rgba(255, 255, 255, 0.9);
+                width: 100%;
+                h3{
+                    color: @color;
+                }
+                p{
+                    color: #999;
+                }
+            }
+        }
+        
+    }
+}
+// 游玩攻略
+.index-strategy{
+    .Title();
+    background: url(../img/index/bg.jpg)no-repeat;
+    background-size: 100%;
+    .strategy-show{
+        display: flex;
+    }
+    .strategy-left{
+        vertical-align: top;
+        margin-bottom: 40px;
+        display: inline-block;
+        width: 160px;
+        height: 140px;
+        a{
+            display: block;
+            width: 160px;
+            height: 140px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .strategy-right{
+        display: inline-block;
+        overflow: hidden;
+        width: 380px;
+        height: 140px;
+        vertical-align: top;
+        margin-left: 10px;
+        margin-bottom: 40px;
+        h4{
+            margin: 0 !important;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space:nowrap;
+            a{
+                color: black;
+            }
+            &:hover{
+                a{
+                    color: @color;
+                }
+            }
+        }
+        p{
+            width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box; //将元素设为盒子伸缩模型显示
+            -webkit-box-orient: vertical; //伸缩方向设为垂直方向
+            -webkit-line-clamp: 3;  //超出3行隐藏，并显示省略号
+            margin: 15px 0;
+        }
+        .strategy-right-bottom{
+            display: inline-block;
+            span{
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+
+//自定义title类
+.Title(){
+    .title{
+        margin-bottom: 30px;
+        text-align: center;
+        h1{
+            font-size: @fontsize;
+            color: @color;
+        }
+        span{
+            font-size: @spansize;
+            color:@spancolor;
+        }
+    }
+}

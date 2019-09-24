@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+// 头部导航栏开始————————————————————————————
+//导航栏背景色
+.navbar-default{
+    background-color: #fff !important;
+    margin: 0;
+}
+//导航栏logo
+.navbar-header{
+    .navbar-brand{
+        padding: 0;
+        img{
+            height: 48px;
+        }
+    }
+    
+}
+//导航栏文字滑动变色
+.navbar-nav{
+    li{ 
+        a{
+            color: black !important;
+            &:hover{
+                color: rgb(119, 209, 173) !important;
+            }
+        }
+       
+    }
+}
+//导航栏文字点击背景色透明
+.navbar-nav > .open > a{
+    background-color: transparent !important;
+}
+.open{
+    display: block;
+}
+//屏幕大于800px时导航栏变化
+@media screen and ( max-width: 768px ) {
+    .dropdown-menu{
+        &:active{
+            color: rgb(119, 209, 173) !important;
+        }
+        li{
+            &:hover{
+                background-color:rgb(245,245,245) !important;
+            }
+            a{
+                line-height: 30px !important;
+            }
+        }
+    }
+}
+// 导航栏菜单
+#example-navbar-collapse{
+    padding: 0 15px;
+    
+}
+//导航栏二级菜单
+.dropdown-menu{
+    padding: 0;
+    right: auto !important;
+    background-color: rgb(119, 209, 173) !important;
+    li{
+        height: 40px;
+        border-bottom: 1px solid rgb(245, 245, 245) !important;
+        a{
+            text-align: center;
+            line-height: 35px;
+            height: 40px;
+            color: white !important;
+        }
+    }
+}
+
+//响应式导航栏按钮透明
+button.navbar-toggle{
+    background-color: transparent !important ;
+    border-color: transparent !important;
+}
+// 头部导航栏结束————————————————————————————
+// 底部开始————————————————————————————
+// 底部文字
+footer{
+    height: 100px;
+    background-color: black ;
+    opacity: 0.8;
+    nav{
+        margin-top: 20px;
+        a{
+            color: white !important;
+            font-size: 10px !important;
+            &:hover{
+                text-decoration: none !important;
+                color: red !important;
+            }
+        }
+    }
+    .Copyright{
+        font-size: 12px !important;
+        color: white !important;
+    }
+}
+
+// 底部结束————————————————————————————
+
+//返回顶部
+#toTop{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    img{
+        width: 50px;
+        height: 50px;
+    }
+}
+//点击切换颜色
+#headon{
+    color: rgb(119, 209, 173) !important;
+}
+// 清楚左右滚动条
+body{
+    .row{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .img-bg{
+        div.col-md-12{
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+        }
+        div{
+            width: 100% !important;
+            height: 100% !important;
+            img{
+                width: 100% !important;
+                height: 100% !important;
+            }
+        }
+    }
+}

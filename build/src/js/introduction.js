@@ -1,0 +1,1 @@
+"use strict";function IntroTable(){$(function(){$("#introduction>li").click(function(){var i=$(this).index();$("ul.nav-tabs>li").eq(i).addClass("active").siblings().removeClass("active")})})}IntroTable();

@@ -1,0 +1,129 @@
+// 中部开始——————————————————
+main.activity_detail{
+    a,i{
+        color: black !important;
+        
+        &:hover{
+            cursor: pointer;
+            text-decoration: none;
+            color: #08a586;
+        }
+    }
+    //图片
+    .img-bg{
+    width: 100%;
+    height: 100%;
+    }
+    .container{
+    margin: 25px auto;
+    .clearfix{
+        .col-md-9{
+            background-color: #fff !important;
+            div.act_con{
+                width: 95%;
+                margin: 0 auto;
+                p{
+                    font-size: 30px;
+                    margin: 20px 0 10px 0; 
+                }
+                div.act_time{
+                    width: 100%;
+                    font-size: 16px;
+                    color: gray;
+                    display: flex;
+                    align-items: center;
+                    margin: 10px 0;
+                    span,i{
+                        padding: 0 10px 0 0;
+                    }
+                }
+                hr{
+                    width: 100%;
+                    color:  gainsboro; 
+                    margin: 25px 0;
+                  }
+                div.act_content{
+                    img{
+                        width: 100%;
+                    }
+                    div.act_text{
+                        margin: 15px 0;
+                        font-size: 16px;
+                        color: gray;
+                        line-height: 30px;
+                        text-indent: 30px;
+                    }
+                }
+            }
+          
+               
+        }
+        .col-md-3{
+            div{
+                background-color: #fff !important;
+                margin: 0 auto; 
+                display: flex;
+                width: 98%;
+                flex-direction: column; 
+                div.search{
+                    flex-direction: row ; 
+                    margin: 20px auto;
+                    width: 85%;
+                    border-radius:30px; 
+                    border: 1px solid gainsboro;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    input[type=text]{  
+                        width: 75% !important;
+                        margin: 5px 0;
+                        outline: none;
+                        border-color:transparent !important; 
+                    }
+                    #act_search{
+                        &:hover{
+                            cursor: pointer;
+                        }
+                    }
+                }  
+                hr{
+                    width: 85%;
+                    color:  gainsboro; 
+                  }
+                  div.each{
+                    width: 85%;
+                    p{
+                       font-size: 20px;
+                       font-weight: bolder;
+                    }
+                    ul{
+                        font-size: 16px;
+                        text-align: center; 
+                        padding: 0 !important;
+                        list-style: none;
+                        display: flex;
+                        flex-direction: column;
+                        width:100%;
+                        border: 1px solid gainsboro;
+                        border-bottom-color: transparent;
+                        li{
+                            overflow: hidden;
+                            text-overflow:ellipsis;
+                            white-space: nowrap;
+                            height: 40px;
+                            line-height: 40px;
+                            width:100%;
+                            border-bottom: 1px solid gainsboro;
+                            a{
+                                &:hover{
+                                    color:rgb(119, 209, 173) !important;
+                                }
+                            }
+                        }
+                    }
+                }               
+            }
+        }
+    }
+}
+}

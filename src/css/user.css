@@ -1,0 +1,67 @@
+main.user .img-bg {
+  width: 100%;
+  height: 100%;
+}
+main.user .main-con {
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+}
+main.user .main-con P.text-center {
+  font-size: 30px;
+  font-weight: bolder;
+}
+main.user .main-con .user-info table {
+  width: 100%;
+  height: 100%;
+  border: 1px solid;
+}
+main.user .main-con .user-info table tr {
+  text-align: center;
+  border: 1px solid;
+}
+main.user .main-con .user-info table tr td {
+  padding: 10px;
+  border: 1px solid;
+}
+main.user .main-con .user-us {
+  background-color: black;
+  opacity: 0.8;
+  margin-top: 8px;
+}
+main.user .main-con .user-us div.user_head {
+  border-radius: 50%;
+  border: 1px solid white;
+  margin: 50px auto;
+  margin-bottom: 20px;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main.user .main-con .user-us div.user_head i.fa {
+  padding: 20px;
+  color: white !important;
+}
+main.user .main-con .user-us p.text-center {
+  color: white !important;
+  margin-bottom: 20px;
+}
+main.user .main-con .user-us div.usr_operation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+main.user .main-con .user-us div.usr_operation input {
+  outline: none;
+  border: none;
+  width: 25%;
+  height: 40px;
+  margin: 20px 10px;
+  background-color: #77d1ad;
+  color: white;
+  font-size: 16px;
+}
+main.user .input-on {
+  border-bottom: 1px solid #77d1ad !important;
+}

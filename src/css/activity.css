@@ -1,0 +1,234 @@
+main.activity a,
+main.activity i {
+  color: black !important;
+}
+main.activity a:hover,
+main.activity i:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: #08a586;
+}
+main.activity .container {
+  margin: 25px auto;
+}
+main.activity .container .clearfix .col-md-9 {
+  background-color: #fff !important;
+}
+main.activity .container .clearfix .col-md-9 img {
+  width: 100%;
+}
+main.activity .container .clearfix .col-md-9 .tab-pane ul {
+  padding-inline-start: 0 !important;
+  width: 95%;
+  height: 100%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+main.activity .container .clearfix .col-md-9 .tab-pane ul li {
+  border-bottom: 1px solid gainsboro;
+  margin: 0 auto;
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main.activity .container .clearfix .col-md-9 .tab-pane ul li div:nth-child(1) {
+  width: 25%;
+  height: 80%;
+}
+main.activity .container .clearfix .col-md-9 .tab-pane ul li div:nth-child(1) img {
+  width: 100%;
+  height: 100%;
+  margin: 20px 0;
+}
+main.activity .container .clearfix .col-md-9 .tab-pane ul li div:nth-child(2) {
+  width: 70%;
+  height: 100%;
+}
+main.activity .container .clearfix .col-md-9 .tab-pane ul li div:nth-child(2) p {
+  font-weight: bolder;
+}
+main.activity .container .clearfix .col-md-9 .tab-pane ul li div:nth-child(2) p:hover {
+  color: #77d1ad;
+}
+main.activity .container .clearfix .col-md-9 .tab-pane ul li div:nth-child(2) div:nth-child(2) {
+  margin-top: -5px;
+  color: gray;
+  font-size: 1.3rem;
+  text-indent: 30px;
+  width: 100%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+main.activity .container .clearfix .col-md-9 .tab-pane ul li div:nth-child(2) div:nth-child(3) {
+  margin-top: 10px;
+  width: 100%;
+  color: gray;
+  display: flex;
+  align-items: center;
+}
+main.activity .container .clearfix .col-md-9 .tab-pane ul li div:nth-child(2) div:nth-child(3) span,
+main.activity .container .clearfix .col-md-9 .tab-pane ul li div:nth-child(2) div:nth-child(3) i {
+  padding: 0 10px 0 0;
+}
+main.activity .container .clearfix .col-md-3 div {
+  background-color: #fff !important;
+  margin: 0 auto;
+  display: flex;
+  width: 98%;
+  flex-direction: column;
+}
+main.activity .container .clearfix .col-md-3 div div.search {
+  flex-direction: row ;
+  margin: 20px auto;
+  width: 85%;
+  border-radius: 30px;
+  border: 1px solid gainsboro;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main.activity .container .clearfix .col-md-3 div div.search input[type=text] {
+  width: 75% !important;
+  margin: 5px 0;
+  outline: none;
+  border-color: transparent !important;
+}
+main.activity .container .clearfix .col-md-3 div div.search #act_search:hover {
+  cursor: pointer;
+}
+main.activity .container .clearfix .col-md-3 div hr {
+  width: 85%;
+  color: gainsboro;
+}
+main.activity .container .clearfix .col-md-3 div div.each {
+  width: 85%;
+}
+main.activity .container .clearfix .col-md-3 div div.each p {
+  font-size: 20px;
+  font-weight: bolder;
+}
+main.activity .container .clearfix .col-md-3 div div.each ul {
+  font-size: 16px;
+  text-align: center;
+  padding: 0 !important;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid gainsboro;
+  border-bottom-color: transparent;
+}
+main.activity .container .clearfix .col-md-3 div div.each ul li {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  border-bottom: 1px solid gainsboro;
+}
+main.activity .container .clearfix .col-md-3 div div.each ul li a:hover {
+  color: #77d1ad !important;
+}
+main.activity .container .nav-tabs {
+  margin-top: 20px;
+  border: transparent !important;
+  display: flex;
+  justify-content: space-between;
+}
+main.activity .container .nav-tabs li a {
+  font-size: 14px !important;
+  color: black !important;
+  border: transparent !important;
+}
+main.activity .container .nav-tabs li a:hover {
+  background-color: white !important;
+}
+main.activity .container .nav-tabs > .active a {
+  background-color: #77d1ad !important;
+  color: white !important;
+  border-radius: 10px;
+}
+main.activity .container .nav-tabs > .active a:hover {
+  background-color: #77d1ad !important;
+}
+main.activity .container .tab-content {
+  margin-top: 20px;
+}
+main.activity div.pgbox {
+  margin: 10px 0;
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+main.activity div.pgbox .pageBox {
+  margin: 0 0 10px 0;
+  display: flex;
+  width: 40% !important ;
+  justify-content: space-around;
+}
+main.activity div.pgbox .pageBox span {
+  display: inline-block;
+  width: 60px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  background: #08a586;
+}
+main.activity div.pgbox .pageBox .pageNav1,
+main.activity div.pgbox .pageBox .pageNav2,
+main.activity div.pgbox .pageBox .pageNav3,
+main.activity div.pgbox .pageBox .pageNav4 {
+  width: 30% !important;
+  margin: 0 !important;
+  padding: 0 5px !important;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: center;
+}
+main.activity div.pgbox .pageBox .pageNav1 a,
+main.activity div.pgbox .pageBox .pageNav2 a,
+main.activity div.pgbox .pageBox .pageNav3 a,
+main.activity div.pgbox .pageBox .pageNav4 a {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #3a87ad;
+  text-decoration: none;
+}
+main.activity div.pgbox .pageBox .pageNav1 a:active,
+main.activity div.pgbox .pageBox .pageNav2 a:active,
+main.activity div.pgbox .pageBox .pageNav3 a:active,
+main.activity div.pgbox .pageBox .pageNav4 a:active,
+main.activity div.pgbox .pageBox .pageNav1 a:hover,
+main.activity div.pgbox .pageBox .pageNav2 a:hover,
+main.activity div.pgbox .pageBox .pageNav3 a:hover,
+main.activity div.pgbox .pageBox .pageNav4 a:hover {
+  background: #3a87ad;
+  color: #EFEFEF;
+}
+main.activity div.pgbox .pageBox .prev1:hover,
+main.activity div.pgbox .pageBox .prev2:hover,
+main.activity div.pgbox .pageBox .prev3:hover,
+main.activity div.pgbox .pageBox .prev4:hover {
+  cursor: pointer;
+}
+main.activity div.pgbox .pageBox .next1:hover,
+main.activity div.pgbox .pageBox .next2:hover,
+main.activity div.pgbox .pageBox .next3:hover,
+main.activity div.pgbox .pageBox .next4:hover {
+  cursor: pointer;
+}
+main.activity .page-on {
+  background-color: #08a586 !important;
+}

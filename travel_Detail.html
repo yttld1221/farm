@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>游客体验详情页</title>
+    <link rel="shortcut icon" href="./src/img/logo.ico">
+    <!-- build:css css/travel_Detail.css -->
+    <link rel="stylesheet" href="./src/js/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./src/css/travel_detail.css">
+    <link rel="stylesheet" href="./src/css/header.css">
+    <link rel="stylesheet" href="./src/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- endbuild -->
+</head>
+
+<body>
+    <!-- 导航栏 -->
+    <nav id="nav" class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+                    <span class="sr-only">切换导航</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="./src/img/logo.png" alt=""></a>
+            </div>
+            <div class="collapse navbar-collapse container navbar-right" id="example-navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">网站首页</a></li>
+                    <li class="dropdown">
+                        <a href="introduction.html" class="dropdown-toggle" data-toggle="dropdown">
+                            农庄简介 <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu" id="introduction">
+                            <li><a href="introduction.html">农庄简介</a></li>
+                            <li><a href="introduction.html">团队套餐</a></li>
+                            <li><a href="introduction.html">乘车路线</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="play.html" class="dropdown-toggle" data-toggle="dropdown">
+                            休闲项目 <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="play.html">农家乐</a></li>
+                            <li><a href="play.html">真人CS</a></li>
+                            <li><a href="play.html">骑马</a></li>
+                            <li><a href="play.html">室内休闲</a></li>
+                            <li><a href="play.html">室外拓展</a></li>
+                            <li><a href="play.html">球类</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="farming.html" class="dropdown-toggle" data-toggle="dropdown">
+                            农场养殖 <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="farming.html">本地鸡</a></li>
+                            <li><a href="farming.html">无害菜园</a></li>
+                            <li><a href="farming.html">特色芦花鸡</a></li>
+                            <li><a href="farming.html">农村水鸭</a></li>
+                            <li><a href="farming.html">本地土猪</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="environ.html">山庄环境</a></li>
+                    <li><a href="travel.html" id="headon">游客体验</a></li>
+                    <li class="dropdown">
+                        <a href="activity.html" class="dropdown-toggle" data-toggle="dropdown">
+                            活动套餐 <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu jumpa">
+                            <li><a href="activity.html">活动方案策划</a></li>
+                            <li><a href="activity.html">亲子活动套餐</a></li>
+                            <li><a href="activity.html">烤全羊套餐</a></li>
+                            <li><a href="activity.html">团队活动套餐</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="strategy.html">游玩攻略</a></li>
+                    <li><a href="order.html">游客预约</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- 导航栏 -->
+    <!-- 中间部分 -->
+    <main class="travel_detail">
+        <div class="row clearfix img-bg">
+            <div class="col-md-12 column">
+                <div class="row clearfix">
+                    <div class="col-md-12 column">
+                        <img src="./src/img/introduction/banner.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row clearfix img-bg">
+                <div class="col-md-12 column">
+                    <div class="row clearfix">
+                        <div class="col-md-9 column">
+                            <div class="str_con">
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-3 column">
+                            <div>
+                                <div class="search">
+                                    <input class="search_val" type="text" placeholder="Search">
+                                    <a href=""><i class="fa fa-search fa-2x act_search"></i></a>
+                                </div>
+                                <hr>
+                                <div class="each">
+                                    <p>为您推荐</p>
+                                    <ul class="echo_item">
+                                    </ul>
+                                </div>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- 中间内容 -->
+    <!-- 返回顶部 -->
+    <div id="toTop"><img src="src/img/fanhuidingbu.png" alt="返回顶部"></div>
+    <!-- 返回顶部 -->
+</body>
+<!-- build:js js/travel_Detail.js -->
+<script src="./src/js/jquery.js"></script>
+<script src="./src/js/dist/js/bootstrap.js"></script>
+<script src="./src/js/getPHP.js"></script>
+<script src="./src/js/header.js"></script>
+<script src="./src/js/travel_detail.js"></script>
+<!-- endbuild -->
+
+</html>

@@ -1,0 +1,192 @@
+main.activity_search a,
+main.activity_search i {
+  color: black !important;
+}
+main.activity_search a:hover,
+main.activity_search i:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: #08a586;
+}
+main.activity_search .img-bg {
+  width: 100%;
+  height: 100%;
+}
+main.activity_search .container {
+  margin: 25px auto;
+}
+main.activity_search .container .clearfix .col-md-9 {
+  background-color: #fff !important;
+}
+main.activity_search .container .clearfix .col-md-9 ul {
+  padding-inline-start: 0 !important;
+  width: 95%;
+  height: 100%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+main.activity_search .container .clearfix .col-md-9 ul li {
+  border-bottom: 1px solid gainsboro;
+  margin: 0 auto;
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main.activity_search .container .clearfix .col-md-9 ul li div:nth-child(1) {
+  width: 25%;
+  height: 80%;
+}
+main.activity_search .container .clearfix .col-md-9 ul li div:nth-child(1) img {
+  width: 100%;
+  height: 100%;
+  margin: 20px 0;
+}
+main.activity_search .container .clearfix .col-md-9 ul li div:nth-child(2) {
+  width: 70%;
+  height: 100%;
+}
+main.activity_search .container .clearfix .col-md-9 ul li div:nth-child(2) p {
+  font-weight: bolder;
+}
+main.activity_search .container .clearfix .col-md-9 ul li div:nth-child(2) p:hover {
+  color: #77d1ad;
+}
+main.activity_search .container .clearfix .col-md-9 ul li div:nth-child(2) div:nth-child(2) {
+  margin-top: -5px;
+  color: gray;
+  font-size: 1.3rem;
+  text-indent: 30px;
+  width: 100%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+main.activity_search .container .clearfix .col-md-9 ul li div:nth-child(2) div:nth-child(3) {
+  margin-top: 10px;
+  width: 100%;
+  color: gray;
+  display: flex;
+  align-items: center;
+}
+main.activity_search .container .clearfix .col-md-9 ul li div:nth-child(2) div:nth-child(3) span,
+main.activity_search .container .clearfix .col-md-9 ul li div:nth-child(2) div:nth-child(3) i {
+  padding: 0 10px 0 0;
+}
+main.activity_search .container .clearfix .col-md-3 div {
+  width: 98%;
+  background-color: #fff !important;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+main.activity_search .container .clearfix .col-md-3 div div.search {
+  flex-direction: row ;
+  margin: 20px auto;
+  width: 85%;
+  border-radius: 30px;
+  border: 1px solid gainsboro;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main.activity_search .container .clearfix .col-md-3 div div.search input[type=text] {
+  width: 75% !important;
+  margin: 5px 0;
+  outline: none;
+  border-color: transparent !important;
+}
+main.activity_search .container .clearfix .col-md-3 div div.search #act_search:hover {
+  cursor: pointer;
+}
+main.activity_search .container .clearfix .col-md-3 div hr {
+  width: 85%;
+  color: gainsboro;
+}
+main.activity_search .container .clearfix .col-md-3 div div.each {
+  width: 85%;
+}
+main.activity_search .container .clearfix .col-md-3 div div.each p {
+  font-size: 20px;
+  font-weight: bolder;
+}
+main.activity_search .container .clearfix .col-md-3 div div.each ul {
+  font-size: 16px;
+  text-align: center;
+  padding: 0 !important;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid gainsboro;
+  border-bottom-color: transparent;
+}
+main.activity_search .container .clearfix .col-md-3 div div.each ul li {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  border-bottom: 1px solid gainsboro;
+}
+main.activity_search .container .clearfix .col-md-3 div div.each ul li a:hover {
+  color: #77d1ad !important;
+}
+main.activity_search div.pgbox {
+  margin: 10px 0;
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+main.activity_search div.pgbox #pageBox {
+  margin: 0 0 10px 0;
+  display: flex;
+  width: 40% !important ;
+  justify-content: space-around;
+}
+main.activity_search div.pgbox #pageBox span {
+  display: inline-block;
+  width: 60px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  background: #08a586;
+}
+main.activity_search div.pgbox #pageBox #pageNav {
+  width: 30% !important;
+  margin: 0 !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 5px !important;
+}
+main.activity_search div.pgbox #pageBox #pageNav a {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #3a87ad;
+  text-decoration: none;
+}
+main.activity_search div.pgbox #pageBox #pageNav a:active,
+main.activity_search div.pgbox #pageBox #pageNav a:hover {
+  background: #3a87ad;
+  color: #EFEFEF;
+}
+main.activity_search div.pgbox #pageBox #prev:hover {
+  cursor: pointer;
+}
+main.activity_search div.pgbox #pageBox #next:hover {
+  cursor: pointer;
+}
+main.activity_search .page-on {
+  background-color: #08a586 !important;
+}
